@@ -1,18 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
 theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -21,7 +8,7 @@ title_separator          : "＞"
 subtitle                 : "upj53 subtitle"
 name                     : "Park Wonjune"
 description              : "slow and steady."
-url                      : "https://upj53-mm.run.goorm.site/"
+url                      : #"https://upj53.github.io/v2/"
 baseurl                  : "/"
 repository               : #"https://github.com/upj53/minimal-mistakes"
 teaser                   : #"/assets/images/500x300.png"
@@ -124,7 +111,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/upj53"
+      url: "https://github.com/upj53/v2"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -140,7 +127,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/upj53/minimal-mistakes"
+      url: "https://github.com/upj53/v2"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
