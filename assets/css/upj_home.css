@@ -1,0 +1,66 @@
+#mainpage {
+  height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider_container {
+  /* 개수가 늘어났을 경우 변경해야함 */
+  /* 100vw x 10개 */
+  width: 1000vw; 
+  transition: transform .5s;
+}
+
+.slider_inner {
+  width: 100vw;
+  height: 90vh;
+  float: left;
+  /* 
+  https://nykim.work/86
+  https://velog.io/@fkszm3/CSS%EB%A1%9C-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A7%8C-opacity-%ED%9A%A8%EA%B3%BC-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+  */
+  object-fit: fill;
+  object-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bg {
+  content: '';
+  position: absolute;
+  background: white;
+  color:black;
+  z-index: -1;
+  inset: 0;
+  opacity: 0.1;
+}
+
+.content {
+  font-weight: bold;
+  margin-top: -20%;
+  display: none;
+}
+
+.btn {
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: calc(50% - 50px);
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn_left, #btn_right {
+  color: white;
+}
+#btn_left:hover, #btn_right:hover {
+  color: #FF7C36;
+}

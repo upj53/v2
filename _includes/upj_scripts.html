@@ -1,0 +1,14 @@
+{% if site.search == true or page.layout == "search" %}
+{%- assign search_provider = site.search_provider | default: "lunr" -%}
+{%- case search_provider -%}
+{%- when "lunr" -%}
+{% include_cached search/lunr-search-scripts.html %}
+{%- when "google" -%}
+{% include_cached search/google-search-scripts.html %}
+{%- when "algolia" -%}
+{% include_cached search/algolia-search-scripts.html %}
+{%- endcase -%}
+{% endif %}
+
+<script type="text/javascript" defer src="/assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" defer src="https://kit.fontawesome.com/eaa55c88d8.js" crossorigin="anonymous"></script>

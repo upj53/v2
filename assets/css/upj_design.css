@@ -1,0 +1,37 @@
+@font-face{
+  font-family:upj_bit;
+  src:url(BitstreamVeraSansMono.ttf);
+}
+
+@font-face{
+  font-family:upj_nanum;
+  src:url(NanumBarunGothic.ttf);
+}
+
+body {
+  font-family:upj_nanum;
+}
+
+.upj-nav {
+  font-size: .9rem;
+  background: #FF7C36;
+}
+
+.site-footer {
+  padding-top: 35px;
+  padding-bottom: 20px; 
+  color: #99979c;
+  background-color: #dbdbdb;
+}
+.site-footer a {
+  color: #99979c;
+}
+.site-footer a:hover {
+  color: #11119c;
+  text-decoration: underline;
+}
+
+#backtotop {
+  position: relative;
+  width: 100%;
+}
