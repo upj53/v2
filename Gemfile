@@ -12,6 +12,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.1"
   gem "jekyll-include-cache", "~> 0.1"
   gem "faraday-retry"
+#   gem "bootstrap", "~> 5.3.3"
+  gem "jekyll-bootstrap-sass", "~> 0.1.0"
   gem "sass-embedded"
   gem "bundler"
   gem "rake", ">= 12.3.3"

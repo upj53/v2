@@ -172,6 +172,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - nohup.out
+  - node_modules
 keep_files:
   - .git
   - .svn
@@ -201,7 +202,7 @@ kramdown:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  sass_dir: node_modules/bootstrap/scss/
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
@@ -220,6 +221,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  # - bootstrap
+  - jekyll-bootstrap-sass
 
 # mimic GitHub Pages with --safe
 whitelist:

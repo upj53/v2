@@ -3,7 +3,11 @@ search: false
 ---
 
 @charset "utf-8";
-@import "upj";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+@import "bootstrap";
 
-// @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-// @import "minimal-mistakes"; // main partials
+:root {}
+
+body {
+    font-family: 'NanumBarunGothic', sans-serif;
+}
