@@ -17,6 +17,8 @@ A variety of common markup showing how the theme styles them.
 
 ## Header two
 
+<a class="btn btn-primary">TEST</a>
+
 ### Header three
 
 #### Header four
@@ -121,13 +123,15 @@ Make any link standout more when applying the `.btn` class.
 ```
 
 [Default Button](#){: .btn}
-[Primary Button](#){: .btn .btn--primary}
-[Success Button](#){: .btn .btn--success}
-[Warning Button](#){: .btn .btn--warning}
-[Danger Button](#){: .btn .btn--danger}
-[Info Button](#){: .btn .btn--info}
-[Inverse Button](#){: .btn .btn--inverse}
-[Light Outline Button](#){: .btn .btn--light-outline}
+
+[Primary Button](#){: .btn .btn-primary}
+
+[Success Button](#){: .btn .btn-success}
+[Warning Button](#){: .btn .btn-warning}
+[Danger Button](#){: .btn .btn-danger}
+[Info Button](#){: .btn .btn-info}
+[Inverse Button](#){: .btn .btn-inverse}
+[Light Outline Button](#){: .btn .btn-light-outline}
 
 ```markdown
 [Default Button Text](#link){: .btn}
